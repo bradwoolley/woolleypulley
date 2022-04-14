@@ -46,6 +46,6 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello World."} 
+    return {"message": "Just a placeholder message. 14-Apr-22. Brad"} 
 
 
